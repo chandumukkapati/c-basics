@@ -1,11 +1,10 @@
 #include<stdio.h>
 void main()
 {
-	float p,t,r,i;
-	printf("enter three numbers");
-	scanf("%f%f%f",&p,&t,&r);
+	int p,t,r,i;
+	printf("enter the values of p,t,r");
+	scanf("%d%d%d",&p,&t,&r);
 	i=p*t*r/100;
-	printf("simple interest with % .2f,% .2f and % .2f is :% .2f",p,t,r,i);
-	
+	printf("the interest with %d,%d and %d is:%d",p,t,r,i);
 	
 }

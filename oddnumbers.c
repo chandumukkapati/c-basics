@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+	int n,s;
+	printf("enter the value of n ");
+	scanf("%d",&n);
+	s=n*n;
+	printf("the sum of first %d natural odd numbers is:%d",n,s);
+	
+}
